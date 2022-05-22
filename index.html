@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>StopWatch</title>
+</head>
+<body>
+    <div class="main-screen">
+        <div class="timer">
+            <div class="min" id="min">00</div><span class="time-sep">.</span><div class="second" id="sec">00</div><span class="time-sep time-sep-small">.</span><div class="mili-sec" id="mil">00</div>
+        </div>
+
+        <div class="laps" id="addLaps">
+            <p class="laps-title">Time Lap's</p>    
+        </div>
+        <div class="controlls" id="controller">
+            <i class="ri-play-circle-line" id="start" tabindex="1"></i>
+            <i class="ri-restart-fill disable" id="reset" tabindex="2"></i>
+            <i class="ri-pause-circle-line hidden" id="pause" tabindex="3"></i>
+            <i class="ri-add-circle-line hidden" id="add" tabindex="4"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
