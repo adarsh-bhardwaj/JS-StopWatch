@@ -170,8 +170,8 @@ body{
 }
 .main-screen{
     width: 96%;
-    margin-top: 16px;
-    height: 95%;
+    margin-top:13px;
+    height:calc(100%-13px);
 }
 .timer{
     font-size: 3rem;
