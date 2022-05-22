@@ -164,10 +164,14 @@ i{
 }
 
 @media screen and (max-width:450px) {
+body{
+    height: 100vh;
+    overflow: hidden;
+}
 .main-screen{
     width: 96%;
-    height: 96vh;
-    margin-top: 13px;
+    margin-top: 16px;
+    height: 95%;
 }
 .timer{
     font-size: 3rem;
